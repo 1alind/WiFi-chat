@@ -1,0 +1,21 @@
+{
+  "name": "wifi-chat",
+  "version": "1.0.0",
+  "description": "chatting with other devices in same wifi/wlan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "1alind",
+  "license": "MIT",
+  "dependencies": {    
+    "qrcode": "^1.5.3"
+  },
+  "nodemonConfig": {
+    "ignore": "/node_modules",
+    "watch": [
+      "index.js",
+      "index.html"
+    ]
+  }
+}
